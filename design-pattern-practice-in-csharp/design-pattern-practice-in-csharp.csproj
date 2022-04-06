@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>design_pattern_practice_in_csharp_singleton</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>design_pattern_practice_in_csharp_singleton.Singleton._5_InnerClass_LazyLoading.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>
+
+
