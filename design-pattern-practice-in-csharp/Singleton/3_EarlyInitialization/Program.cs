@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            Settings settings1 = Settings.GetInstance();
-            Settings settings2 = Settings.GetInstance();
+            Settings settings1 = Settings.Instance;
+            Settings settings2 = Settings.Instance;
 
             Console.WriteLine(settings1 == settings2);
         }

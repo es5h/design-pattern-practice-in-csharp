@@ -4,21 +4,23 @@ namespace design_pattern_practice_in_csharp_singleton.Singleton._2_Synchronized_
 {
     internal class Settings
     {
-        private static Settings _instance;
+        private static Settings instance;
 
         private Settings()
         {
         }
 
+        
+        // 해당 attribute 가 생성자 메서드에서만 사용가능해 Property 사용하는 법에 대한 고민 필요
         [MethodImpl(MethodImplOptions.Synchronized)]
         public static Settings GetInstance()
         {
-            if (_instance == null)
+            if (instance == null)
             {
-                _instance = new Settings();
+                instance = new Settings();
             }
 
-            return _instance;
+            return instance;
         }
 
     }

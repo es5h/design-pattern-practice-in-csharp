@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp_singleton.Singleton._5_InnerClass_LazyLoading
+﻿namespace design_pattern_practice_in_csharp_singleton.Singleton._6_BreakSingleton_WithReflection
 {
     public class Settings
     {
@@ -11,6 +11,9 @@
             public static readonly Settings Instance = new Settings();
         }
 
-        public static Settings Instance => SettingHolders.Instance;
+        public static Settings GetInstance()
+        {
+            return SettingHolders.Instance;
+        }
     }
 }

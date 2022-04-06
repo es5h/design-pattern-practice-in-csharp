@@ -2,20 +2,23 @@
 {
     internal class Settings
     {
-        private static Settings _instance;
+        private static Settings instance = null!;
 
         private Settings()
         {
         }
 
-        public static Settings GetInstance()
+        public static Settings Instance
         {
-            if (_instance == null)
+            get
             {
-                _instance = new Settings();
-            }
+                if (instance == null)
+                {
+                    instance = new Settings();
+                }
 
-            return _instance;
+                return instance;
+            }
         }
 
     }
