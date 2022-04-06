@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp_singleton.Singleton._4_DoubledCheckedLocking
+﻿namespace design_pattern_practice_in_csharp_singleton._1_Singleton._4_DoubledCheckedLocking
 {
     public static class Program
     {

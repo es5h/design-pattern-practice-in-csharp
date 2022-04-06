@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp_singleton.Singleton._1_Basic
+﻿namespace design_pattern_practice_in_csharp_singleton._1_Singleton._1_Basic
 {
     internal class Settings
     {

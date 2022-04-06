@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp_singleton.Singleton._2_Synchronized_ForThreadSafe.SimilarPatternWithProperty
+﻿namespace design_pattern_practice_in_csharp_singleton._1_Singleton._2_Synchronized_ForThreadSafe.SimilarPatternWithProperty
 {
     public class Settings
     {
