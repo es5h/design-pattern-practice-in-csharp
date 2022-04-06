@@ -6,7 +6,7 @@
     <RootNamespace>design_pattern_practice_in_csharp_singleton</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>design_pattern_practice_in_csharp_singleton.FactoryMethod.Original.Client</StartupObject>
+    <StartupObject>design_pattern_practice_in_csharp_singleton._2_FactoryMethod.AfterPattern.Client</StartupObject>
   </PropertyGroup>
 
 </Project>
