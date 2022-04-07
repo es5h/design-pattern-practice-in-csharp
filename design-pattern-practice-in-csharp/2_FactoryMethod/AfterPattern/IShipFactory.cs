@@ -12,6 +12,7 @@ public interface IShipFactory
     }
 
     Ship CreateShip();
+    
     private static void Validate(string name, string email)
     {
         if (string.IsNullOrEmpty(name))
