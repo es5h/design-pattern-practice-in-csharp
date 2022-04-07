@@ -24,12 +24,12 @@ public interface IShipFactory
         }
     }
     
-    private static void PrepareFor(string name)
+    void PrepareFor(string name)
     {
         Console.WriteLine($"preparing {name}");
     }
 
-    private static void SendEmailTo(string email, Ship ship)
+    void SendEmailTo(string email, Ship ship)
     {
         Console.WriteLine($"{ship.Name} build complete");
     }

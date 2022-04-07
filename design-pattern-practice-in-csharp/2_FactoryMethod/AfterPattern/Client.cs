@@ -7,8 +7,8 @@
             Client client = new();
 
             IShipFactory whiteShipFactory = new WhiteShipFactory();
-            client.print(new WhiteShipFactory(), "person1", "person1@gmail.com");
-            client.print(new BlackShipFactory(), "person2", "person2@gmail.com");
+            Print(new WhiteShipFactory(), "person1", "person1@gmail.com");
+            Print(new BlackShipFactory(), "person2", "person2@gmail.com");
             
             /*Ship whiteShip = whiteShipFactory.OrderShip("name", "ancd@abcd.com");
             Console.WriteLine(whiteShip);
@@ -19,7 +19,7 @@
         }
 
         // Dependency Injection
-        private void print(IShipFactory shipFactory, string name, string email)
+        private static void Print(IShipFactory shipFactory, string name, string email)
         {
             Console.WriteLine(shipFactory.OrderShip(name, email));
         }
