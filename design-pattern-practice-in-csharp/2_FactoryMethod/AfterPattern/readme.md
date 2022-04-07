@@ -4,6 +4,5 @@ green => inheritance (implemenation)
 
 blue => usage (depend)
 
-![diagram](classdiagram.png)
-
-![](classdiagram_detail.png)
+![](ClassDiagram/classdiagram.png)
+![](ClassDiagram/classdiagram_detail.png)
