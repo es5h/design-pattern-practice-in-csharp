@@ -1,4 +1,4 @@
-﻿namespace structural_design_pattern._1_Adapter.Original.Security;
+﻿namespace structural_design_pattern._1_Adapter.AfterPattern.Security;
 
 public class LoginHandler
 {
