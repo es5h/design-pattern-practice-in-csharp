@@ -2,13 +2,20 @@
 
 public class TourDirector
 {
-    private TourPlanBuilder _tourPlanBuilder;
+    private readonly TourPlanBuilder _tourPlanBuilder;
 
     public TourDirector(TourPlanBuilder tourPlanBuilder)
     {
         _tourPlanBuilder = tourPlanBuilder;
     }
 
+    public TourPlan LongBeachTrip()
+    {
+        return _tourPlanBuilder.Title("Longbeach trip")
+            .StartDate(new DateTime(2022, 4, 5))
+            .GetPlan();
+    }
+    
     public TourPlan CanCunTrip()
     {
         return _tourPlanBuilder.Title("Cancun Trip")
@@ -20,10 +27,5 @@ public class TourDirector
             .GetPlan();
     }
     
-    public TourPlan LongBeachTrip()
-    {
-        return _tourPlanBuilder.Title("Longbeach trip")
-            .StartDate(new DateTime(2022, 4, 5))
-            .GetPlan();
-    }
+    
 }

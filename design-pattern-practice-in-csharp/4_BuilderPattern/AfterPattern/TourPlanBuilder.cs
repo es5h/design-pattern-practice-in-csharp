@@ -2,12 +2,12 @@
 
 public class TourPlanBuilder : ITourPlanBuilder
 {
-    private string _title;
+    private string _title = null!;
     private int _nights;
     private int _days;
     private DateTime _startDate;
-    private string _whereToStay;
-    private List<DetailPlan> _plans;
+    private string _whereToStay = null!;
+    private List<DetailPlan> _plans = null!;
     
     public ITourPlanBuilder NightsAndDays(int nights, int days)
     {

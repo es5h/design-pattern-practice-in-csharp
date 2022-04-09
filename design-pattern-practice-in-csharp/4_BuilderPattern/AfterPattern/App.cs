@@ -4,12 +4,13 @@ public class App
 {
     public static void Main(string[] args)
     {
-        var tourDirector = new TourDirector(new TourPlanBuilder());
+        var tourDirector1 = new TourDirector(new TourPlanBuilder());
+        var tourDirector2 = new TourDirector(new TourPlanBuilder());
         // 이런 Anomaly 도 가능하게 구현 할 수 있을듯
         // var tourDirector = new TourDirector(new TourPlanDetailOrderedBuilder());  
         
-        var tourPlan = tourDirector.CanCunTrip();
-        var tourPlan1 = tourDirector.LongBeachTrip();
+        var tourPlan = tourDirector2.CanCunTrip();
+        var tourPlan1 = tourDirector1.LongBeachTrip();
 
         Console.WriteLine(tourPlan.ToString());
         Console.WriteLine(tourPlan1.ToString());
