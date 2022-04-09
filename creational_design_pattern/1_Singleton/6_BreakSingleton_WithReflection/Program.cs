@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._1_Singleton._6_BreakSingleton_WithReflection
+﻿namespace creational_design_pattern._1_Singleton._6_BreakSingleton_WithReflection
 {
     public class Program
     {

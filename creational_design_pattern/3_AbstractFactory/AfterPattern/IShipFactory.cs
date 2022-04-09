@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._3_AbstractFactory.AfterPattern;
+﻿namespace creational_design_pattern._3_AbstractFactory.AfterPattern;
 
 public interface IShipFactory
 {

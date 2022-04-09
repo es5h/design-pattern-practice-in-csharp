@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._1_Singleton._5_InnerClass_LazyLoading
+﻿namespace creational_design_pattern._1_Singleton._5_InnerClass_LazyLoading
 {
     public class Program
     {

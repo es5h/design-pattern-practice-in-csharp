@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace design_pattern_practice_in_csharp._1_Singleton._2_Synchronized_ForThreadSafe
+namespace creational_design_pattern._1_Singleton._2_Synchronized_ForThreadSafe
 {
     internal class Settings
     {

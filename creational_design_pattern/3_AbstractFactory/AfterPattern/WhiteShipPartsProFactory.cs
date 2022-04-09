@@ -1,6 +1,6 @@
-﻿using design_pattern_practice_in_csharp._3_AbstractFactory.AfterPattern.ProProduct;
+﻿using creational_design_pattern._3_AbstractFactory.AfterPattern.ProProduct;
 
-namespace design_pattern_practice_in_csharp._3_AbstractFactory.AfterPattern;
+namespace creational_design_pattern._3_AbstractFactory.AfterPattern;
 
 public class WhiteShipPartsProFactory : IShipPartsFactory
 {

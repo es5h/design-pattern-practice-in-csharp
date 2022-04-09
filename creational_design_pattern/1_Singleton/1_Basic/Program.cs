@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._1_Singleton._1_Basic
+﻿namespace creational_design_pattern._1_Singleton._1_Basic
 {
     public class Program
     {

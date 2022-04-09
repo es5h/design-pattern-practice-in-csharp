@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._2_FactoryMethod.AfterPattern
+﻿namespace creational_design_pattern._2_FactoryMethod.AfterPattern
 {
     public class Client
     {

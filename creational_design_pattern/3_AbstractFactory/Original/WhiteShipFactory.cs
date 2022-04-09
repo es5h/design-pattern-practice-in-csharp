@@ -1,6 +1,6 @@
-﻿using design_pattern_practice_in_csharp._2_FactoryMethod.AfterPattern;
+﻿using creational_design_pattern._2_FactoryMethod.AfterPattern;
 
-namespace design_pattern_practice_in_csharp._3_AbstractFactory.Original;
+namespace creational_design_pattern._3_AbstractFactory.Original;
 
 // Client에 해당하는 클래스 (예시 혼동 주의)
 public class WhiteShipFactory : IShipFactory

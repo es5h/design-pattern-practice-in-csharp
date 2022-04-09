@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._4_BuilderPattern.AfterPattern;
+﻿namespace creational_design_pattern._4_BuilderPattern.AfterPattern;
 
 public class TourDirector
 {

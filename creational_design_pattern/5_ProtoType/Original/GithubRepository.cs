@@ -1,4 +1,4 @@
-﻿namespace design_pattern_practice_in_csharp._5_ProtoType.Original;
+﻿namespace creational_design_pattern._5_ProtoType.Original;
 
 public class GithubRepository
 {
