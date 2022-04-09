@@ -5,7 +5,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <StartupObject>structural_design_pattern._2_Bridge.AfterPattern.App</StartupObject>
+        <StartupObject>structural_design_pattern._3_Composite.AfterPattern.Client</StartupObject>
     </PropertyGroup>
 
     <ItemGroup>
