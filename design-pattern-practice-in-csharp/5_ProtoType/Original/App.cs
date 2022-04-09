@@ -6,13 +6,17 @@ public class App
 {
     public static void Main(string[] args)
     {
-        GithubRepository repository = new();
-        repository.User = "es5h";
-        repository.Name = "design-pattern-practice";
+        GithubRepository repository = new()
+        {
+            User = "es5h",
+            Name = "design-pattern-practice"
+        };
 
-        GithubIssue githubIssue = new GithubIssue(repository);
-        githubIssue.Id = 1;
-        githubIssue.Title = "how to use proto-type pattern";
+        GithubIssue githubIssue = new GithubIssue(repository)
+        {
+            Id = 1,
+            Title = "how to use proto-type pattern"
+        };
 
         string url = githubIssue.Url;
         Console.WriteLine(url);
