@@ -13,6 +13,10 @@
     <Folder Include="3_AbstractFactory\AfterPattern\ClassDiagram\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Lombok.NET" Version="1.1.2" />
+  </ItemGroup>
+
 </Project>
 
 
