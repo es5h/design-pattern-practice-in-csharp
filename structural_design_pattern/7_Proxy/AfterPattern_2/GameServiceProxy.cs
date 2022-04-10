@@ -6,6 +6,14 @@ public class GameServiceProxy : IGameService
 {
     private IGameService _gameService;
 
+    public GameServiceProxy()
+    {
+    }
+    
+    public GameServiceProxy(IGameService gameService)
+    {
+        _gameService = gameService;
+    }
 
     public void StartGame()
     {
