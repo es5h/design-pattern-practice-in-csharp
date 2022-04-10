@@ -1,4 +1,4 @@
-﻿namespace structural_design_pattern._5_Facade.AfterPattern;
+﻿/*namespace structural_design_pattern._5_Facade.AfterPattern;
 
 public class EmailSender
 {
@@ -33,4 +33,4 @@ public class EmailSender
             Console.WriteLine(e.ToString());
         }
     }
-}
+}*/

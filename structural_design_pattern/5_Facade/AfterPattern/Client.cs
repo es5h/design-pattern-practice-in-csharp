@@ -1,4 +1,4 @@
-﻿namespace structural_design_pattern._5_Facade.AfterPattern;
+﻿/*namespace structural_design_pattern._5_Facade.AfterPattern;
 
 public class Client
 {
@@ -15,4 +15,4 @@ public class Client
         emailSender.SendEmail(emailMessage);
 
     }
-}
+}*/

@@ -5,7 +5,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <StartupObject>structural_design_pattern._4_Decorator.AfterPattern.App</StartupObject>
+        <StartupObject>structural_design_pattern._7_Proxy.AfterPattern_2.Client</StartupObject>
     </PropertyGroup>
 
     <ItemGroup>
