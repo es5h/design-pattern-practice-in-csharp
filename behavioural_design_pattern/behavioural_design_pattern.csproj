@@ -5,7 +5,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <StartupObject>behavioural_design_pattern._1_ChainOfResponsibilities.AfterPattern.Client</StartupObject>
+        <StartupObject>behavioural_design_pattern._2_Command.Original.Button</StartupObject>
     </PropertyGroup>
 
 </Project>
