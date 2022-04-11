@@ -1,6 +1,7 @@
 ﻿namespace behavioural_design_pattern._3_Interpreter.AfterPattern;
 
-public interface IPostfixExpression
+
+public  interface IPostfixExpression
 {
-    int Interpret(Dictionary<string, int> context);
+    public int Interpret(Dictionary<string, int> context);
 }

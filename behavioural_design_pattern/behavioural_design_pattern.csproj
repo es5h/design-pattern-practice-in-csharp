@@ -5,7 +5,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <StartupObject>behavioural_design_pattern._3_Interpreter.AfterPattern.App</StartupObject>
+        <StartupObject>behavioural_design_pattern._3_Interpreter.AfterPattern_Functional.App</StartupObject>
     </PropertyGroup>
 
     <ItemGroup>

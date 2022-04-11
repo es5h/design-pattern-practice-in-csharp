@@ -4,17 +4,18 @@ namespace behavioural_design_pattern._3_Interpreter.AfterPattern;
 
 public class PlusExpression : IPostfixExpression
 {
-    private IPostfixExpression left, right;
+    private readonly IPostfixExpression _left;
+    private readonly IPostfixExpression _right;
 
     public PlusExpression(IPostfixExpression left, IPostfixExpression right)
     {
-        this.left = left;
-        this.right = right;
+        _left = left;
+        _right = right;
     }
 
     public int Interpret(Dictionary<string, int> context)
     {
-        return left.Interpret(context) + right.Interpret(context);
+        return _left.Interpret(context) + _right.Interpret(context);
     }
     
 }
