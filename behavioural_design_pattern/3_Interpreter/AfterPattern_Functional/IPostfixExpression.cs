@@ -3,7 +3,7 @@ public class PostfixExpression
 {
     private PostfixExpression(Func<IDictionary<string, int>, int> interpretDelegate)
     {
-        InterpretDelegate = InterpretDelegate;
+        InterpretDelegate = interpretDelegate;
     }
     
     private Func<IDictionary<string, int>, int> InterpretDelegate { get; init; }

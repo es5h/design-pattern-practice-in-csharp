@@ -17,11 +17,7 @@ public static class PostfixParser
                 {"z", 3},
                 {"a", 4},
             };
-            PostfixExpression forDebug = GetExpression(c, stack);
-            Console.WriteLine(forDebug.DoInterpret(context));
-            
-            
-            stack.Push(forDebug);
+            stack.Push( GetExpression(c, stack));
         }
 
         return stack.Pop();

@@ -5,7 +5,7 @@ public class App
     public static void Main(string[] args)
     {
         PostfixExpression expression = PostfixParser.Parse("xyz+-a+");
-        int result = expression.DoInterpret(new Dictionary<string, int>()
+        int result = expression.Interpret(new Dictionary<string, int>()
         {
             {"x", 1},
             {"y", 2},
